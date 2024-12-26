@@ -1,0 +1,28 @@
+.sizeSelector {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .toggle {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .sizeOption {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .selected {
+    background-color: #0070f3;
+    color: white;
+  }
+  
+  .price {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  

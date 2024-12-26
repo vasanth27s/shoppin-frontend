@@ -1,0 +1,48 @@
+.caseSelector {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .caseOption {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.3s;
+    text-align: center;
+    width: 180px;
+  }
+  
+  .caseOption:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .selected {
+    border: 2px solid #0070f3;
+  }
+  
+  .caseImage {
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .caseName {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .price {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  

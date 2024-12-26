@@ -1,0 +1,10 @@
+.watchPreview {
+    text-align: center;
+  }
+  
+  .previewContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  

@@ -1,0 +1,100 @@
+/* Main container for the customization page */
+.customizeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Title styling for the customization page */
+  .customizeTitle {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Subtitle for the description */
+  .customizeSubtitle {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  /* Grid container for the customization options like case, size, and band */
+  .customizeOptions {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  /* Each customization option (case, size, band) */
+  .customizeOptionCard {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .customizeOptionCard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Card image for customization options */
+  .customizeOptionImage {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  /* Title inside each option card */
+  .customizeOptionTitle {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Price text inside the customization option card */
+  .customizeOptionPrice {
+    font-size: 1rem;
+    color: #0070f3;
+    margin-top: 10px;
+  }
+  
+  /* Buttons for saving or confirming customization */
+  .customizeButton {
+    display: inline-block;
+    background-color: #0070f3;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+  }
+  
+  .customizeButton:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Add a small header for specific sections like case, size, and band */
+  .customizeSectionHeader {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  

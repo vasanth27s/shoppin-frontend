@@ -1,0 +1,24 @@
+.bandSelector {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .carousel {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    overflow-x: scroll;
+  }
+  
+  .bandOption {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .selected {
+    background-color: #0070f3;
+    color: white;
+  }
+  
